@@ -1,0 +1,8 @@
+{
+  "plexus": {
+    "Ganglion cell clusters (large nuclei, prominent nucleoli)": "Looser stromal matrix vs. dense muscle bundles; lower cellular density with interspersed nerve fibers; eosinophilic cytoplasm contrast to spindle-shaped myocytes; nodular/network architecture vs. linear muscle alignment; distinct nuclear morphology (round vs. elongated); supporting glial cell presence; vascularity variations; staining contrast in H&E (lighter vs. uniform)"
+  },
+  "no plexus": {
+    "Enlarged, densely packed nerve fibers without clustered nuclei": "Increased density of linear, disorganized fibers; absence of organized cellular clusters; thickened muscular layers with sparse cellularity; inflammatory cell aggregates obscuring tissue architecture; submucosal layer thinning or reduced cellularity; excessive connective tissue deposition; lack of immunohistochemical staining in expected regions"
+  }
+}
