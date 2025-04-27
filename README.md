@@ -16,7 +16,7 @@ Our method aims to combine the strengths of Vision Transformers (ViTs) with clin
 - **Contribution:** Demonstrates how expert knowledge can enhance model reasoning in medical imaging tasks.
 
 ## 📂 Project Structure
-
+```
 CSI5386---NLP/
 ├── ConcepPath/
 ├── dataset/
@@ -32,6 +32,7 @@ CSI5386---NLP/
 ├── report_visuals.ipynb
 ├── training_setup.ipynb
 ├── training_setup_v2.ipynb
+```
 
 ## 🧪 Methodology
 
