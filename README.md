@@ -17,13 +17,26 @@ Our method aims to combine the strengths of Vision Transformers (ViTs) with clin
 
 ## 📂 Project Structure
 
-CSI5386---NLP/ ├── ConcepPath/ # Concept learning components ├── dataset/ # Placeholder for dataset structure ├── experiment/plexus_detection/ # Input and Output saved files ├── prompts/ # Prompt files used for CLIP model ├── reports/ # Analysis reports and visualizations ├── saved_rp_all/dataset_quilt1m_5x_224/ # Precomputed dataset features ├── Fold_1_5_Epoch_Metrics.csv # Training metrics for cross-validation ├── README.md # Project description and instructions ├── Tutorial.ipynb # Tutorial and demonstration notebook ├── creating_labels.ipynb # Label generation scripts ├── report_visuals.ipynb # Visualizing model outputs ├── training_setup.ipynb # Initial training configuration ├── training_setup_v2.ipynb # Updated training configuration
-
+CSI5386---NLP/
+├── ConcepPath/
+├── dataset/
+├── experiment/plexus_detection/
+├── prompts/
+├── reports/
+├── saved_rp_all/          # Pre-trained features and model checkpoints
+├── best_model.pt          # Best trained model weights
+├── Fold_1_5_Epoch_Metrics.csv  # Training metrics for cross-validation
+├── README.md # Project description and instructions
+├── Tutorial.ipynb
+├── creating_labels.ipynb
+├── report_visuals.ipynb
+├── training_setup.ipynb
+├── training_setup_v2.ipynb
 
 ## 🧪 Methodology
 
 - **Data Preprocessing:**
-  - Macenko color normalization
+  - Macenko colour normalization
   - Downsampling WSIs to 5× magnification
   - Extraction of 224×224 overlapping tiles
 - **Baseline ViT Model:**
@@ -38,25 +51,23 @@ CSI5386---NLP/ ├── ConcepPath/ # Concept learning components ├── dat
 | Model         | Accuracy (%) | F1-Micro (%) | AUC (%) |
 |:--------------|:-------------:|:------------:|:-------:|
 | ViT-B16        | 87.17         | 87.17        | 87.17   |
-| Quilt-1M (CLIP)| 83.93         | 83.93        | 91.76   |
+| QuiltNet (CLIP)| 83.93         | 83.93        | 91.76   |
 
-The Quilt-1M model showed higher AUC, indicating better overall discriminative power.
+The QuiltNet model showed higher AUC, indicating better overall discriminative power.
 
 ## 🏥 Clinical Impact
 
-By aligning AI predictions with expert-driven medical concepts, this method offers enhanced interpretability, better diagnostic consistency, and potential to aid pathologists in clinical settings.
+By aligning AI predictions with expert-driven medical concepts, this method offers enhanced interpretability, better diagnostic consistency, and the potential to aid pathologists in clinical settings.
 
 ## 🚀 Future Work
 
 - Expand prompt diversity to improve classification robustness.
 - Acquire larger annotated datasets.
-- Optimize computational efficiency for real-time applications.
-- Conduct clinical validation studies.
 
 ## 🤝 Authors
 
-- **Youssef Megahed** — Carleton University
-- **Atallah Madi** — Carleton University
-- **Rowan Hussein** — University of Ottawa
+- **Youssef Megahed** — MASc, Data Science, Analytics, and Artificial Intelligence at Carleton University
+- **Atallah Madi** — MASc, Electrical and Computer Engineering at Carleton University
+- **Rowan Hussein** — MCS, Computer Science Concentration Applied Artificial Intelligence at University of Ottawa
 
-📧 Contact: youssefmegahed@cmail.carleton.ca
+📧 Contact: youssefmegahed@cmail.carleton.ca or atallahmadi@cmail.carleton.ca
