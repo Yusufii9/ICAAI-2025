@@ -9,7 +9,7 @@ Our method aims to combine the strengths of Vision Transformers (ViTs) with clin
 
 - **Baseline Model:** Vision Transformer (ViT) fine-tuned on histopathological tiles.
 - **Proposed Model:** CLIP-based multi-modal model integrating expert prompts.
-- **Dataset:** 30 WSIs from 26 patients (Children’s Hospital of Eastern Ontario).
+- **Dataset:** 30 WSIs from 26 patients (Children’s Hospital of Eastern Ontario). The dataset folder will be left empty, as this is a private dataset and cannot be shared publicly. 
 - **Results:**  
   - ViT achieved higher raw classification accuracy (87.17%).  
   - Proposed CLIP model achieved better AUC (91.76%), showing stronger discriminative ability.
