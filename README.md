@@ -1,5 +1,4 @@
-# CSI5386 Project — Aligning Knowledge Concepts to Whole Slide Images for Hirschsprung’s Disease Classification
-
+# Knowledge-Driven Vision-Language Model for Plexus Detection in Hirschsprung’s Disease
 ## 📋 Overview
 
 This project proposes a novel framework that integrates expert-derived textual concepts into a CLIP-based vision-language model to guide plexus classification in histopathological whole slide images (WSIs) for Hirschsprung’s Disease (HD).  
@@ -69,6 +68,5 @@ By aligning AI predictions with expert-driven medical concepts, this method offe
 
 - **Youssef Megahed** — MASc, Data Science, Analytics, and Artificial Intelligence at Carleton University
 - **Atallah Madi** — MASc, Electrical and Computer Engineering at Carleton University
-- **Rowan Hussein** — MCS, Computer Science Concentration Applied Artificial Intelligence at University of Ottawa
 
 📧 Contact: youssefmegahed@cmail.carleton.ca or atallahmadi@cmail.carleton.ca
