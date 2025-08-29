@@ -16,7 +16,7 @@ Our method aims to combine the strengths of Vision Transformers (ViTs) with clin
 
 ## 📂 Project Structure
 ```
-CSI5386---NLP/
+KDVLM/
 ├── ConcepPath/
 ├── dataset/
 ├── experiment/plexus_detection/
