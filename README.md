@@ -72,7 +72,7 @@ By aligning AI predictions with expert-driven medical concepts, this method offe
 
 - **Youssef Megahed** — MASc, Data Science, Analytics, and Artificial Intelligence at Carleton University
 - **Atallah Madi** — MASc, Electrical and Computer Engineering at Carleton University
-- Dina El Demellawy - Pediatric and Perinatal Pathologist at the Children’s Hospital of Eastern Ontario (CHEO)
-- Adrian D. C. Chan - Professor, PhD, P.Eng, Department of Systems and Computer Engineering at Carleton University
+- **Dina El Demellawy** - Pediatric and Perinatal Pathologist at the Children’s Hospital of Eastern Ontario (CHEO)
+- **Adrian D. C. Chan** - Professor, PhD, P.Eng, Department of Systems and Computer Engineering at Carleton University
 
 📧 Contact: youssefmegahed@cmail.carleton.ca or atallahmadi@cmail.carleton.ca
