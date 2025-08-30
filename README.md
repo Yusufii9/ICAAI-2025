@@ -42,20 +42,20 @@ KDVLM/
   - Downsampling WSIs from 20x to 5x magnification
   - Extraction of 224×224 overlapping tiles (50% overlap)
 - **Baseline CNN Models:**
-  - VGG-19, ResNet-18, and ResNet-50 trained with 5-fold cross-validation 
+  - VGG-19, ResNet-18, and ResNet-50 fine-tuned with 5-fold cross-validation 
 - **Proposed CLIP-based Model:**
   - Textual prompts extracted using LLMs (e.g., GPT-4o, DeepSeek-R1)
   - Concept-guided hierarchical aggregation
-  - Vision and text encoders from QuiltNet (trained on Quilt-1M dataset), trained with 5-fold cross-validation 
+  - Vision and text encoders from QuiltNet (trained on Quilt-1M dataset), fine-tuned with 5-fold cross-validation 
 
 ## 🔥 Results
 
-| Model                | Accuracy (%) | Precision (%) | Recall (%) | Specificity (%) | AUC (%) |
-|:---------------------|:------------:|:-------------:|:----------:|:---------------:|:-------:|
-| VGG-19 (Baseline)    | 79.40        | 78.38         | 81.20      | 77.60           | 89.13   |
-| ResNet-18            | 58.91        | 57.60         | 67.52      | 50.29           | 64.12   |
-| ResNet-50            | 56.95        | 54.36         | **86.67**  | 27.23           | 64.67   |
-| QuiltNet (Proposed)  | **83.93**    | **86.61**     | 80.24      | **87.60**       | **91.76** |
+| Model                | Accuracy (%) | Precision (%) | Recall (%) | Specificity (%) | F1 Micro (%) | F1 Macro (%) | AUC (%) |
+|:---------------------|:------------:|:-------------:|:----------:|:---------------:|:------------:|:------------:|:-------:|
+| VGG-19 (Baseline)    | 79.40        | 78.38         | 81.20      | 77.60           | 79.40        | 79.02        | 89.13   |
+| ResNet-18            | 58.91        | 57.60         | 67.52      | 50.29           | 58.91        | 55.74        | 64.12   |
+| ResNet-50            | 56.95        | 54.36         | **86.67**  | 27.23           | 56.94        | 51.53        | 64.67   |
+| QuiltNet (Proposed)  | **83.93**    | **86.61**     | 80.24      | **87.60**       | **83.93**    | **83.86**    | **91.76** |
 
 The QuiltNet model showed higher AUC, indicating better overall discriminative power.
 
